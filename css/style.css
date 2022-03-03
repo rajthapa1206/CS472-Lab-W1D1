@@ -1,14 +1,18 @@
 body{
-    background-color: rgb(68, 118, 194);
+    background-color: rgb(30, 77, 148);
+}
+footer{
+    padding-top: 20%;
 }
 h1{
-    color: rgb(70, 70, 153);
+    color: rgb(231, 231, 243);
+    text-align: center;
 }
 h2{
     color: rgb(70, 70, 153);
 }
 a{
-    color: rgb(214, 19, 19);
+    color: rgb(94, 119, 231);
 }
 span{
     color: rgb(195, 209, 70);
@@ -28,17 +32,20 @@ p > a > img{
     margin-left: 10px;
 }
 nav{
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
-    background-color: teal;
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: rgb(151, 179, 223);
     color: #fff;
 }
 li.inline-block{
+    border-left:2px solid #fff;
     box-sizing: border-box; 
     margin: 0;
-    padding: 0;
+    padding: 10px;
 }
 .menu {
     display: flex;
@@ -52,4 +59,8 @@ li.inline-block{
 }
 .menu li {
     padding: 5px 14px;
+}
+header img{
+    height: 240px;
+    padding-left: 39%;
 }
